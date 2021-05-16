@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compra.css">
+    <title>Comprar</title>
+</head>
+<body>
+    <div class="header">
+            <a href="index.html"><img src="image/pimenta.png" class="logo"></a>
+            <div class="hot">
+            <a href="index.html"><img src="image/hoticon.png" class="hoticon"></a>
+            </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="compras.html">Comprar</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div></div>
+    </div>
+    <section>
+        <form id="form">
+            <div class="compras">
+            <label for="qtdpizza">Quantidade de pizza</label>
+            <input type="number" class="qtdpizza" min="1" max="100" value="1" >
+            <input type="button" class="addpizza" value="Adicionar">
+            <input type="button" class="addR" value="Calcular">
+            <p class="p"></p>
+            </div>
+            <div class="tabela">
+                <table class="tabelaPizza">
+                    <thead>
+                        <tr>
+                            <th> Pizzas </th>
+                            <th> Sabor & Preço </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </section>
+</body>
+<script src="jquarry.js"></script>
+<script src="compra.js"></script>
+</html>
